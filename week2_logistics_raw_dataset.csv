@@ -1,0 +1,303 @@
+Order_ID,Delivery_Zone,Distance_KM,Traffic_Level,Vehicle_Type,Weather,Delivery_Time_Min,Shipping_Cost_INR,Delivery_Status
+ORD0001,Suburban,19.33,Medium,Van,Clear,51.8,89.45,On Time
+ORD0002,Urban,3.29,Medium,Mini Truck,Clear,24.5,52.97,On Time
+ORD0003,Rural,14.39,High,Bike,Clear,43.4,63.96,On Time
+ORD0004,Suburban,26.62,Medium,Bike,Clear,63.7,73.95,Delayed
+ORD0005,Urban,15.58,Low,Van,Clear,44.7,86.13,On Time
+ORD0006,Rural,46.58,Low,Van,Clear,68.1,177.72,Delayed
+ORD0007,Suburban,31.0,Medium,Van,Clear,71.7,136.26,Delayed
+ORD0008,Suburban,,Medium,Van,Clear,30.1,56.51,On Time
+ORD0009,Urban,5.53,Low,Bike,Clear,26.9,32.73,On Time
+ORD0010,Urban,3.38,Medium,Van,Clear,28.5,52.06,On Time
+ORD0011,Urban,9.12,High,Bike,Clear,53.2,34.01,On Time
+ORD0012,Rural,58.47,High,Bike,Clear,105.7,145.02,Delayed
+ORD0013,Suburban,34.09,Medium,Van,Clear,75.5,140.91,Delayed
+ORD0014,Suburban,34.54,Medium,Van,Clear,79.7,133.64,Delayed
+ORD0015,Urban,7.23,Low,Mini Truck,Rainy,42.0,80.53,On Time
+ORD0016,Urban,6.57,Medium,Bike,Clear,36.8,37.4,On Time
+ORD0017,Suburban,27.5,Medium,Bike,Clear,69.0,79.3,Delayed
+ORD0018,Urban,12.66,Medium,Mini Truck,Clear,46.0,103.46,On Time
+ORD0019,Suburban,8.72,,Bike,Clear,25.8,41.02,On Time
+ORD0020,Suburban,6.23,Low,Bike,Clear,21.8,30.46,On Time
+ORD0021,Suburban,28.32,Low,Bike,Rainy,63.7,89.83,Delayed
+ORD0022,Urban,9.18,Low,Van,Clear,31.1,77.93,On Time
+ORD0023,Rural,44.69,High,Mini Truck,Clear,88.6,230.04,Delayed
+ORD0024,Rural,40.75,Medium,Van,Clear,80.5,168.19,Delayed
+ORD0025,Suburban,34.34,Low,Van,Clear,70.0,142.53,Delayed
+ORD0026,Urban,12.09,High,Bike,Clear,45.2,51.53,On Time
+ORD0027,Urban,14.67,Medium,Bike,Clear,55.0,66.81,On Time
+ORD0028,Urban,10.06,Medium,Van,Clear,37.6,73.24,On Time
+ORD0029,Urban,11.76,High,Bike,Rainy,60.2,33.68,Delayed
+ORD0030,Suburban,29.06,Low,Bike,Clear,61.1,89.57,Delayed
+ORD0031,Suburban,32.74,Low,Bike,Clear,67.3,103.89,Delayed
+ORD0032,Rural,31.68,Medium,Bike,Rainy,77.0,89.92,Delayed
+ORD0033,Urban,12.81,Low,Van,Clear,35.8,85.68,On Time
+ORD0034,Urban,15.63,Medium,Van,Clear,,80.94,On Time
+ORD0035,Urban,3.25,Low,Bike,Clear,18.6,20.0,On Time
+ORD0036,Urban,11.44,Low,Van,Clear,35.8,74.61,On Time
+ORD0037,Urban,2.62,Low,Van,Clear,10.0,32.06,On Time
+ORD0038,Urban,13.34,Medium,Van,Clear,52.0,77.43,On Time
+ORD0039,Urban,2.44,Low,Van,Clear,18.1,55.85,On Time
+ORD0040,Suburban,30.96,Low,Bike,Clear,64.9,74.84,Delayed
+ORD0041,Urban,3.34,High,Van,Clear,23.3,38.11,On Time
+ORD0042,Suburban,29.03,Medium,Bike,Clear,70.2,77.6,Delayed
+ORD0043,Suburban,,Medium,Bike,Clear,18.5,35.73,On Time
+ORD0044,Urban,11.09,Low,Bike,Rainy,52.4,43.48,On Time
+ORD0045,Suburban,23.66,Medium,Van,Clear,53.8,122.53,On Time
+ORD0046,Suburban,30.74,Low,Bike,Clear,60.0,97.27,Delayed
+ORD0047,Urban,17.08,Medium,Bike,Clear,57.8,63.54,On Time
+ORD0048,Urban,5.31,Low,Van,Clear,20.7,55.62,On Time
+ORD0049,Suburban,25.32,High,Bike,Clear,66.9,80.85,Delayed
+ORD0050,Urban,2.62,High,Bike,Clear,31.5,20.86,On Time
+ORD0051,Urban,11.47,Low,Bike,Clear,36.5,54.1,On Time
+ORD0052,Urban,3.91,Low,Bike,Rainy,27.0,21.71,On Time
+ORD0053,Suburban,25.15,Low,Bike,Clear,55.3,84.01,On Time
+ORD0054,Suburban,12.13,Medium,Bike,Clear,33.0,58.17,On Time
+ORD0055,Suburban,30.58,Low,Bike,Rainy,72.5,90.97,Delayed
+ORD0056,Suburban,15.44,High,Van,Rainy,58.8,,On Time
+ORD0057,Urban,13.99,High,Mini Truck,Clear,61.3,114.15,Delayed
+ORD0058,Suburban,13.97,High,Van,Clear,46.8,58.41,On Time
+ORD0059,Urban,9.37,Medium,Van,Clear,29.1,69.45,On Time
+ORD0060,Urban,11.19,High,Mini Truck,Clear,50.4,98.87,On Time
+ORD0061,Suburban,13.24,Low,Mini Truck,Clear,28.2,107.57,On Time
+ORD0062,Urban,3.04,Medium,Van,Rainy,35.5,53.06,On Time
+ORD0063,Suburban,10.63,Medium,Mini Truck,Rainy,35.4,96.91,On Time
+ORD0064,Suburban,7.54,High,Mini Truck,Clear,30.4,76.06,On Time
+ORD0065,Suburban,15.26,Medium,Van,Clear,46.0,84.17,On Time
+ORD0066,Suburban,26.53,High,Van,Rainy,85.1,120.78,Delayed
+ORD0067,Suburban,29.22,Low,Bike,Rainy,73.6,87.21,Delayed
+ORD0068,Urban,12.41,High,Bike,Clear,53.3,50.6,On Time
+ORD0069,Urban,6.67,Medium,Van,Clear,33.7,67.0,On Time
+ORD0070,Urban,16.27,Medium,Van,Rainy,58.6,79.76,On Time
+ORD0071,Urban,13.96,High,Bike,Clear,52.6,54.12,On Time
+ORD0072,Urban,5.6,Medium,Van,Clear,27.1,65.68,On Time
+ORD0073,Rural,18.3,Medium,Van,Rainy,57.2,80.87,On Time
+ORD0074,Urban,6.35,Medium,Van,Rainy,35.2,59.11,On Time
+ORD0075,Urban,3.68,Low,Bike,Rainy,26.3,25.41,On Time
+ORD0076,Urban,3.51,Medium,Bike,Rainy,38.3,26.76,On Time
+ORD0077,Urban,16.91,Low,Van,Clear,420.0,83.2,Delayed
+ORD0078,Suburban,19.91,Low,Van,Clear,42.0,98.36,On Time
+ORD0079,Suburban,9.03,High,Mini Truck,Clear,38.9,105.85,On Time
+ORD0080,Suburban,15.96,Medium,Mini Truck,Clear,50.2,108.73,On Time
+ORD0081,Suburban,7.02,Medium,Mini Truck,Clear,20.1,73.7,On Time
+ORD0082,Urban,16.91,Medium,Bike,Clear,63.2,48.8,Delayed
+ORD0083,Suburban,5.53,Medium,Bike,Clear,19.3,47.99,On Time
+ORD0084,Urban,9.15,Medium,Bike,Clear,38.4,38.43,On Time
+ORD0085,Urban,7.4,High,Van,Clear,41.2,60.73,On Time
+ORD0086,Urban,17.77,High,Mini Truck,Clear,66.6,122.87,Delayed
+ORD0087,Suburban,17.61,Medium,Bike,Clear,42.1,53.19,On Time
+ORD0088,Urban,17.17,Medium,Van,Clear,60.9,89.35,Delayed
+ORD0089,Urban,3.01,Medium,Bike,Rainy,33.1,48.3,On Time
+ORD0090,Suburban,21.23,Medium,Bike,Clear,52.3,79.83,On Time
+ORD0091,Urban,11.83,Medium,Bike,Clear,45.5,41.2,On Time
+ORD0092,Suburban,31.91,Medium,Bike,Clear,75.1,97.38,Delayed
+ORD0093,Urban,11.0,Medium,Mini Truck,Clear,39.1,92.35,On Time
+ORD0094,Urban,12.66,Medium,Bike,Clear,50.5,35.65,On Time
+ORD0095,Urban,1.21,Medium,Van,Clear,19.6,49.9,On Time
+ORD0096,Suburban,20.89,Medium,Van,Clear,62.6,112.03,Delayed
+ORD0097,Urban,15.03,,Bike,Clear,46.5,63.44,On Time
+ORD0098,Urban,6.02,Low,Bike,Clear,21.6,31.49,On Time
+ORD0099,Urban,8.8,Medium,Van,Clear,40.1,63.93,On Time
+ORD0100,Rural,26.89,Medium,Bike,Clear,56.6,87.15,On Time
+ORD0101,Rural,15.29,Low,Mini Truck,Clear,27.8,119.29,On Time
+ORD0102,Suburban,14.67,Medium,Bike,Clear,38.9,51.14,On Time
+ORD0103,Urban,14.28,High,Van,Rainy,78.0,69.32,Delayed
+ORD0104,Rural,20.07,Low,Van,Clear,33.8,101.14,On Time
+ORD0105,Suburban,13.5,High,Bike,Clear,45.7,60.33,On Time
+ORD0106,Suburban,21.84,High,Bike,Clear,63.3,60.48,Delayed
+ORD0107,Urban,5.83,Medium,Mini Truck,Clear,32.9,83.42,On Time
+ORD0108,Urban,15.23,Medium,Bike,Clear,52.1,58.15,On Time
+ORD0109,Urban,2.81,Low,Bike,Rainy,14.0,34.18,On Time
+ORD0110,Rural,36.44,High,Bike,Rainy,75.1,109.14,Delayed
+ORD0111,Urban,12.32,Medium,Bike,Clear,41.6,43.54,On Time
+ORD0112,Urban,,High,Van,Clear,49.6,62.43,On Time
+ORD0113,Urban,2.54,Medium,Van,Rainy,33.9,41.6,On Time
+ORD0114,Suburban,32.08,Low,Bike,Clear,62.4,99.68,Delayed
+ORD0115,Urban,1.49,Low,Van,Clear,10.0,38.29,On Time
+ORD0116,Rural,21.39,Medium,Bike,Clear,42.0,63.51,On Time
+ORD0117,Suburban,21.87,Medium,Bike,Clear,52.2,55.53,On Time
+ORD0118,Suburban,8.06,Low,Van,Clear,27.4,77.0,On Time
+ORD0119,Urban,4.37,Medium,Mini Truck,Clear,27.6,79.08,On Time
+ORD0120,Suburban,33.66,High,Bike,Rainy,93.6,102.21,Delayed
+ORD0121,Suburban,20.38,Medium,Bike,Clear,49.4,74.58,On Time
+ORD0122,Suburban,17.99,Medium,Van,Clear,45.0,98.38,On Time
+ORD0123,Urban,1.09,Low,Van,Clear,11.3,39.43,On Time
+ORD0124,Urban,1.88,High,Bike,Clear,29.5,24.82,On Time
+ORD0125,Urban,11.3,Medium,Bike,Clear,40.2,43.44,On Time
+ORD0126,Urban,14.63,High,Van,Clear,62.0,104.42,Delayed
+ORD0127,Urban,5.06,Medium,Bike,Clear,18.7,37.57,On Time
+ORD0128,Urban,15.44,Medium,Bike,Clear,,52.26,On Time
+ORD0129,Urban,1.97,Low,Bike,Clear,15.4,30.06,On Time
+ORD0130,Suburban,20.48,Low,Bike,Clear,44.3,58.97,On Time
+ORD0131,Urban,16.77,High,Van,Clear,75.0,102.03,Delayed
+ORD0132,Rural,50.15,Medium,Mini Truck,Clear,84.7,250.31,Delayed
+ORD0133,Suburban,8.35,Medium,Van,Clear,29.5,67.89,On Time
+ORD0134,Urban,15.25,High,Van,Rainy,78.9,93.79,Delayed
+ORD0135,Suburban,6.82,High,Mini Truck,Clear,34.4,85.34,On Time
+ORD0136,Urban,4.43,High,Bike,Clear,33.6,32.5,On Time
+ORD0137,Rural,30.15,Low,Bike,Clear,52.6,88.41,On Time
+ORD0138,Urban,9.58,Medium,Mini Truck,Clear,42.5,92.86,On Time
+ORD0139,Suburban,16.82,High,Bike,Clear,59.1,54.4,On Time
+ORD0140,Urban,11.71,Medium,Van,Clear,44.9,70.71,On Time
+ORD0141,Urban,15.47,Low,Van,Clear,52.5,97.79,On Time
+ORD0142,Urban,3.64,High,Bike,Clear,29.1,29.14,On Time
+ORD0143,Rural,46.74,Medium,Van,Clear,86.2,176.62,Delayed
+ORD0144,Suburban,5.04,Medium,Bike,Clear,19.4,28.95,On Time
+ORD0145,Urban,5.6,High,Bike,Rainy,50.9,43.13,On Time
+ORD0146,Urban,13.07,Medium,Van,Rainy,64.7,83.92,Delayed
+ORD0147,Urban,17.66,Medium,Bike,Clear,60.7,65.34,Delayed
+ORD0148,Suburban,17.94,Medium,Van,Rainy,49.8,91.55,On Time
+ORD0149,Urban,1.93,Medium,Mini Truck,Clear,16.1,67.29,On Time
+ORD0150,Urban,11.48,Low,Van,Rainy,52.0,68.43,On Time
+ORD0151,Suburban,12.81,High,Bike,Rainy,59.1,48.11,On Time
+ORD0152,Rural,18.86,High,Bike,Clear,51.3,71.24,On Time
+ORD0153,Urban,13.06,Low,Bike,Clear,46.7,57.73,On Time
+ORD0154,Suburban,19.4,Medium,Bike,Rainy,62.8,56.82,Delayed
+ORD0155,Urban,2.56,High,Mini Truck,Rainy,49.5,58.39,On Time
+ORD0156,Suburban,11.85,Low,Bike,Rainy,43.6,48.93,On Time
+ORD0157,Urban,17.66,Medium,Bike,Clear,67.3,74.66,Delayed
+ORD0158,Suburban,32.91,Medium,Van,Clear,76.1,124.7,Delayed
+ORD0159,Suburban,6.46,Medium,Bike,Rainy,34.4,38.43,On Time
+ORD0160,Suburban,18.82,Low,Bike,Clear,41.1,52.4,On Time
+ORD0161,Urban,10.73,Medium,Bike,Clear,39.9,40.53,On Time
+ORD0162,Rural,44.33,Medium,Van,Clear,86.3,172.52,Delayed
+ORD0163,Urban,17.08,Medium,Van,Clear,60.5,87.59,Delayed
+ORD0164,Urban,6.12,Low,Bike,Clear,26.9,31.2,On Time
+ORD0165,Suburban,32.56,Medium,Mini Truck,Clear,74.6,185.32,Delayed
+ORD0166,Urban,12.9,Medium,Mini Truck,Clear,45.8,102.3,On Time
+ORD0167,Suburban,10.65,Low,Van,Clear,27.0,59.31,On Time
+ORD0168,Suburban,5.94,Low,Bike,Rainy,34.5,41.3,On Time
+ORD0169,Urban,3.52,Low,Bike,Clear,18.8,35.77,On Time
+ORD0170,Rural,33.2,Medium,Mini Truck,Clear,56.0,194.56,On Time
+ORD0171,Urban,7.87,Low,Bike,Clear,27.6,26.99,On Time
+ORD0172,Suburban,22.08,High,Van,Rainy,82.3,108.83,Delayed
+ORD0173,Urban,3.03,Medium,Van,Clear,20.4,52.79,On Time
+ORD0174,Rural,61.6,High,Bike,Clear,107.2,,Delayed
+ORD0175,Urban,5.73,High,Van,Clear,45.2,55.83,On Time
+ORD0176,Urban,6.18,Low,Mini Truck,Clear,26.6,78.79,On Time
+ORD0177,Urban,8.27,Medium,Van,Clear,35.3,78.39,On Time
+ORD0178,Rural,37.96,High,Bike,Rainy,84.8,120.91,Delayed
+ORD0179,Rural,45.51,Medium,Mini Truck,Clear,85.6,223.71,Delayed
+ORD0180,Suburban,30.66,Medium,Van,Clear,68.3,153.01,Delayed
+ORD0181,Rural,24.94,Medium,Van,Rainy,64.6,108.0,Delayed
+ORD0182,Rural,60.37,Low,Van,Clear,99.7,233.0,Delayed
+ORD0183,Suburban,18.63,Medium,Van,Rainy,57.6,103.53,On Time
+ORD0184,Urban,6.39,High,Bike,Clear,40.0,28.09,On Time
+ORD0185,Suburban,34.54,High,Bike,Clear,86.1,101.93,Delayed
+ORD0186,Suburban,15.85,Low,Bike,Rainy,46.9,56.0,On Time
+ORD0187,Urban,9.06,Medium,Van,Clear,34.2,70.52,On Time
+ORD0188,Urban,4.84,Medium,Van,Clear,19.7,54.83,On Time
+ORD0189,Suburban,28.98,High,Van,Rainy,86.0,137.4,Delayed
+ORD0190,Urban,10.62,Low,Bike,Clear,38.5,45.96,On Time
+ORD0191,Rural,24.73,High,Van,Clear,61.0,113.33,Delayed
+ORD0192,Urban,12.02,High,Mini Truck,Clear,56.4,111.83,On Time
+ORD0193,Urban,12.09,Low,Bike,Clear,38.7,53.24,On Time
+ORD0194,Suburban,7.34,Low,Van,Clear,23.9,66.62,On Time
+ORD0195,Urban,14.39,High,Van,Clear,61.1,77.28,Delayed
+ORD0196,Urban,10.34,Low,Van,Clear,33.2,61.68,On Time
+ORD0197,Suburban,5.57,Medium,Bike,Clear,22.2,29.71,On Time
+ORD0198,Rural,55.25,High,Van,Clear,113.0,204.31,Delayed
+ORD0199,Urban,7.13,Medium,Mini Truck,Rainy,30.6,89.81,On Time
+ORD0200,Urban,9.72,Medium,Van,Clear,41.5,75.93,On Time
+ORD0201,Suburban,27.16,Medium,Mini Truck,Rainy,72.6,162.39,Delayed
+ORD0202,Rural,29.81,Low,Mini Truck,Clear,51.3,185.71,On Time
+ORD0203,Suburban,31.7,High,Bike,Rainy,89.9,102.69,Delayed
+ORD0204,Urban,9.56,Medium,Van,Clear,30.7,69.59,On Time
+ORD0205,Urban,9.84,Low,Van,Clear,35.4,61.94,On Time
+ORD0206,Urban,,Low,Mini Truck,Rainy,53.9,125.99,On Time
+ORD0207,Urban,6.35,High,Bike,Clear,30.9,35.47,On Time
+ORD0208,Suburban,10.19,Low,Bike,Clear,29.5,45.42,On Time
+ORD0209,Urban,9.4,High,Mini Truck,Clear,53.4,89.88,On Time
+ORD0210,Suburban,34.75,Medium,Bike,Clear,84.1,91.34,Delayed
+ORD0211,Suburban,5.12,High,Van,Clear,33.0,42.12,On Time
+ORD0212,Suburban,5.5,High,Bike,Clear,32.5,39.16,On Time
+ORD0213,Urban,1.94,High,Mini Truck,Clear,32.6,56.51,On Time
+ORD0214,Suburban,22.54,High,Mini Truck,Clear,71.0,169.63,Delayed
+ORD0215,Suburban,8.81,Low,Bike,Clear,28.0,32.69,On Time
+ORD0216,Suburban,31.92,High,Van,Clear,78.1,126.89,Delayed
+ORD0217,Urban,6.34,Medium,Bike,Clear,31.1,40.02,On Time
+ORD0218,Urban,13.63,Medium,Van,Clear,51.9,92.47,On Time
+ORD0219,Rural,26.34,High,Van,Clear,54.3,120.18,On Time
+ORD0220,Urban,15.06,High,Van,Clear,65.0,1250.0,Delayed
+ORD0221,Urban,15.56,Medium,Bike,Clear,64.5,41.49,Delayed
+ORD0222,Urban,7.33,Medium,Bike,Clear,35.5,32.7,On Time
+ORD0223,Suburban,13.84,Medium,Van,Clear,44.8,72.32,On Time
+ORD0224,Rural,21.35,Medium,Van,Clear,45.8,89.01,On Time
+ORD0225,Urban,3.03,Medium,Van,Clear,21.0,48.34,On Time
+ORD0226,Rural,41.27,Medium,Bike,Clear,76.4,94.84,Delayed
+ORD0227,Urban,17.29,Low,Bike,Rainy,58.2,49.47,On Time
+ORD0228,Suburban,11.94,Low,Mini Truck,Clear,25.5,98.46,On Time
+ORD0229,Suburban,31.22,High,Bike,Clear,85.6,84.03,Delayed
+ORD0230,Urban,6.29,Medium,Bike,Clear,35.6,39.0,On Time
+ORD0231,Urban,12.69,High,Mini Truck,Clear,52.6,108.21,On Time
+ORD0232,Urban,12.99,Medium,Bike,Clear,52.3,57.73,On Time
+ORD0233,Rural,17.05,Low,Van,Clear,32.2,96.86,On Time
+ORD0234,Suburban,25.33,Low,Bike,Clear,55.9,86.85,On Time
+ORD0235,Rural,63.76,Low,Mini Truck,Clear,104.5,310.04,Delayed
+ORD0236,Suburban,22.01,High,Van,Rainy,79.8,108.65,Delayed
+ORD0237,Urban,9.93,Low,Mini Truck,Rainy,49.0,98.8,On Time
+ORD0238,Suburban,34.5,Medium,Bike,Clear,83.3,99.04,Delayed
+ORD0239,Urban,3.82,High,Van,Clear,33.7,46.67,On Time
+ORD0240,Urban,15.22,High,Van,Clear,66.0,82.51,Delayed
+ORD0241,Suburban,5.37,Low,Bike,Clear,13.7,27.28,On Time
+ORD0242,Suburban,28.88,Low,Bike,Rainy,75.5,88.91,Delayed
+ORD0243,Urban,15.26,Low,Bike,Clear,50.5,54.83,On Time
+ORD0244,Suburban,17.24,Low,Mini Truck,Rainy,50.3,118.65,On Time
+ORD0245,Suburban,7.82,,Van,Rainy,28.2,56.95,On Time
+ORD0246,Rural,29.04,Medium,Van,Clear,53.3,118.35,On Time
+ORD0247,Suburban,16.85,High,Van,Clear,58.5,98.07,On Time
+ORD0248,Urban,2.36,Medium,Van,Clear,20.6,45.95,On Time
+ORD0249,Urban,13.84,Medium,Van,Clear,43.1,74.0,On Time
+ORD0250,Urban,8.37,Low,Bike,Clear,34.0,46.89,On Time
+ORD0251,Suburban,10.35,High,Van,Rainy,44.9,65.61,On Time
+ORD0252,Rural,58.59,Medium,Bike,Clear,106.5,139.65,Delayed
+ORD0253,Urban,4.08,High,Mini Truck,Clear,32.8,79.47,On Time
+ORD0254,Urban,16.42,High,Van,Rainy,78.6,84.61,Delayed
+ORD0255,Urban,1.76,Medium,Bike,Clear,22.5,22.6,On Time
+ORD0256,Suburban,19.09,Low,Van,Clear,39.2,97.52,On Time
+ORD0257,Suburban,27.0,Low,Bike,Rainy,64.0,90.55,Delayed
+ORD0258,Urban,9.33,Medium,Mini Truck,Clear,37.7,92.49,On Time
+ORD0259,Urban,10.97,High,Mini Truck,Clear,55.2,89.29,On Time
+ORD0260,Suburban,20.51,Medium,Mini Truck,Clear,46.1,141.39,On Time
+ORD0261,Urban,2.43,High,Bike,Rainy,36.1,23.47,On Time
+ORD0262,Suburban,26.93,Medium,Bike,Clear,66.8,96.36,Delayed
+ORD0263,Urban,15.34,Low,Bike,Clear,46.4,55.74,On Time
+ORD0264,Urban,11.84,Medium,Bike,Clear,43.7,30.17,On Time
+ORD0265,Rural,19.78,Medium,Bike,Clear,35.2,68.38,On Time
+ORD0266,Urban,12.39,Medium,Bike,Rainy,56.6,64.82,On Time
+ORD0267,Urban,13.97,Medium,Mini Truck,Clear,51.1,123.48,On Time
+ORD0268,Urban,1.99,Low,Bike,Rainy,25.7,41.02,On Time
+ORD0269,Urban,7.23,Medium,Bike,Clear,29.6,29.75,On Time
+ORD0270,Urban,10.17,Low,Van,Clear,41.4,76.83,On Time
+ORD0271,Urban,6.75,High,Van,Rainy,47.8,53.16,On Time
+ORD0272,Urban,15.36,Low,Van,Clear,46.1,87.4,On Time
+ORD0273,Urban,9.2,Low,Van,Clear,38.3,56.35,On Time
+ORD0274,Suburban,16.31,Medium,Mini Truck,Rainy,52.2,115.1,On Time
+ORD0275,Suburban,26.58,Medium,Van,Clear,60.6,114.99,Delayed
+ORD0276,Urban,9.58,Medium,Van,Clear,38.5,74.89,On Time
+ORD0277,Urban,16.46,Medium,Van,Rainy,77.9,95.44,Delayed
+ORD0278,Suburban,14.57,High,Bike,Clear,55.2,56.28,On Time
+ORD0279,Rural,23.62,Medium,Bike,Clear,45.2,63.15,On Time
+ORD0280,Rural,23.04,Medium,Van,Clear,47.4,106.94,On Time
+ORD0281,Urban,9.48,Medium,Bike,Clear,39.2,36.89,On Time
+ORD0282,Urban,10.03,Low,Van,Clear,30.4,76.06,On Time
+ORD0283,Urban,2.78,Medium,Bike,Clear,20.4,37.55,On Time
+ORD0284,Urban,7.78,Low,Bike,Clear,28.2,47.56,On Time
+ORD0285,Suburban,10.9,Medium,Bike,Clear,38.0,39.94,On Time
+ORD0286,Urban,11.72,Low,Van,Clear,43.8,52.43,On Time
+ORD0287,Urban,4.02,High,Bike,Clear,31.6,20.0,On Time
+ORD0288,Urban,6.76,Medium,Van,Clear,30.6,70.33,On Time
+ORD0289,Suburban,9.89,High,Mini Truck,Clear,,91.33,On Time
+ORD0290,Urban,1.42,Medium,Bike,Clear,14.5,20.0,On Time
+ORD0291,Suburban,15.18,Low,Van,Clear,37.8,98.21,On Time
+ORD0292,Urban,8.62,High,Bike,Rainy,58.5,51.08,On Time
+ORD0293,Rural,58.38,Medium,Bike,Clear,96.7,150.63,Delayed
+ORD0294,Urban,11.17,High,Van,Clear,48.6,70.29,On Time
+ORD0295,Suburban,27.61,Medium,Mini Truck,Rainy,82.1,164.36,Delayed
+ORD0296,Rural,22.19,Medium,Bike,Clear,45.7,72.64,On Time
+ORD0297,Rural,23.7,High,Van,Clear,64.1,124.28,Delayed
+ORD0298,Suburban,11.06,Medium,Bike,Clear,31.7,49.72,On Time
+ORD0299,Suburban,10.57,Medium,Van,Clear,34.0,76.58,On Time
+ORD0300,Suburban,20.66,Medium,Van,Clear,61.3,111.4,Delayed
+ORD0025,Suburban,34.34,Low,Van,Clear,70.0,142.53,Delayed
+ORD0159,Suburban,6.46,Medium,Bike,Rainy,34.4,38.43,On Time

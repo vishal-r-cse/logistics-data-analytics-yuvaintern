@@ -1,0 +1,31 @@
+WEEK 2 LOGISTICS DATA PREPROCESSING SUMMARY
+Dataset is synthetic and for educational demonstration only.
+Rows initially loaded: 302
+Exact duplicate rows detected and removed: 2
+Rows after duplicate removal: 300
+Missing values before cleaning: 12
+Missing values after cleaning: 0
+Duplicate rows after cleaning: 0
+
+Missing values by column before cleaning:
+Order_ID             0
+Delivery_Zone        0
+Distance_KM          4
+Traffic_Level        3
+Vehicle_Type         0
+Weather              0
+Delivery_Time_Min    3
+Shipping_Cost_INR    2
+Delivery_Status      0
+
+IQR outlier flags (records retained for review):
+Distance_KM: 13
+Delivery_Time_Min: 6
+Shipping_Cost_INR: 14
+
+Numeric preprocessing:
+Median imputation was used for missing numeric values.
+Mode imputation was used for missing categorical values.
+Min-Max scaled and Z-score standardized copies were added.
+Original measurement columns were retained.
+Cleaned dataset saved to: week2_logistics_cleaned_dataset.csv

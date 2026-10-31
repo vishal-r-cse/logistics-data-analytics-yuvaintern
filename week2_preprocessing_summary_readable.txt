@@ -1,0 +1,42 @@
+WEEK 2 LOGISTICS DATA PREPROCESSING SUMMARY
+
+Dataset note:
+This is a synthetic dataset created for educational demonstration. It does not represent real company delivery records.
+
+DATASET OVERVIEW
+- Rows initially loaded: 302
+- Columns: 9
+- Exact duplicate rows detected and removed: 2
+- Rows after duplicate removal: 300
+
+MISSING VALUES BEFORE CLEANING
+- Distance_KM: 4
+- Traffic_Level: 3
+- Delivery_Time_Min: 3
+- Shipping_Cost_INR: 2
+- Total missing values: 12
+
+CLEANING RESULTS
+- Missing numeric values were filled using each column's median.
+- Missing categorical values, if present, were filled using the mode.
+- Exact duplicate rows were removed.
+- Missing values after cleaning: 0
+- Duplicate rows after cleaning: 0
+
+IQR OUTLIER FLAGS
+These observations were flagged for review and retained in the dataset:
+- Distance_KM: 13
+- Delivery_Time_Min: 6
+- Shipping_Cost_INR: 14
+
+SCALING
+- Min-Max scaled copies were added for the three numeric columns.
+- Z-score standardized copies were added for the three numeric columns.
+- Original numeric columns were retained so values remain interpretable in kilometres, minutes, and rupees.
+
+OUTPUT
+- Cleaned dataset: week2_logistics_cleaned_dataset.csv
+- Python script: week2_preprocessing.py
+
+IMPORTANT LIMITATION
+Outlier flags are statistical indicators, not proof of data errors. A logistics analyst should inspect flagged records and retain genuine unusual events. The dataset and its results are simulated for learning purposes.
