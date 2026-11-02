@@ -1,0 +1,9 @@
+WEEK 2 DETAILED EXECUTION SUMMARY\nInitial rows: 302\nColumns: 9\nExact duplicate rows removed: 2\nRows after duplicate removal: 300\nMissing cells before cleaning: 12\nMissing cells after cleaning: 0\nDuplicate rows after cleaning: 0\n\nMissing values by column:\nOrder_ID             0
+Delivery_Zone        0
+Distance_KM          4
+Traffic_Level        3
+Vehicle_Type         0
+Weather              0
+Delivery_Time_Min    3
+Shipping_Cost_INR    2
+Delivery_Status      0\n\nNumeric medians used:\nDistance_KM: 13.155\nDelivery_Time_Min: 46.000\nShipping_Cost_INR: 73.825\n\nCategorical modes used (where imputation was needed):\nTraffic_Level: Medium\n\nIQR calculations and flags:\nDistance_KM: Q1=7.720, Q3=21.260, IQR=13.540, lower=-12.590, upper=41.570, flags=13\nDelivery_Time_Min: Q1=33.175, Q3=61.100, IQR=27.925, lower=-8.712, upper=102.987, flags=6\nShipping_Cost_INR: Q1=50.960, Q3=97.860, IQR=46.900, lower=-19.390, upper=168.210, flags=14\n\nOutput saved: week2_logistics_cleaned_dataset_verified.csv\nOutlier flags are review indicators; flagged records were retained.
