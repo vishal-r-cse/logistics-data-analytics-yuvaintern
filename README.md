@@ -26,6 +26,42 @@ python last_mile_delivery_optimization_week1.py
 ## Limitation
 Five synthetic rows demonstrate code syntax only. They cannot support reliable predictions or claims of cost savings. Real deployment requires a larger representative dataset, evaluation on held-out data, road-network constraints, and a pilot.
 
+## Week 2 – Data Collection, Cleaning and Preprocessing
+
+This phase extends the E-Commerce Last-Mile Delivery Optimization project by preparing logistics data for analysis using Python, pandas, NumPy and scikit-learn.
+
+### Dataset
+
+The project uses a synthetic educational dataset containing 300 unique simulated delivery orders and nine original attributes. The raw dataset includes missing values and duplicate records to demonstrate data-cleaning techniques.
+
+A public research dataset, LaDe, is included as a reference for real-world last-mile delivery data. It was not used as the dataset processed in this exercise.
+
+### Week 2 Activities
+
+- Inspected dataset structure and data quality.
+- Identified and removed exact duplicate records.
+- Handled missing numerical values using median imputation.
+- Handled missing categorical values using mode imputation.
+- Detected potential outliers using the IQR method.
+- Applied Min-Max normalization and Z-score standardization.
+- Exported cleaned data and execution summaries.
+
+### Week 2 Files
+
+- `week2_logistics_raw_dataset.csv` – Original synthetic dataset.
+- `week2_logistics_cleaned_dataset.csv` – Initial cleaned dataset.
+- `week2_preprocessing.py` – Initial preprocessing script.
+- `week2_preprocessing_detailed.py` – Detailed preprocessing implementation.
+- `week2_logistics_cleaned_dataset_verified.csv` – Verified processed dataset.
+- `week2_detailed_execution_summary.txt` – Detailed execution results.
+- `YuvaIntern_Week2_Complete_Enhanced_Report.docx` – Enhanced Week 2 report.
+
+### Public Reference
+
+LaDe – Last-mile Delivery Dataset: https://huggingface.co/datasets/Cainiao-AI/LaDe
+
+**Note:** All processed project records are synthetic and are not actual company or customer data.
+
 ## References
 - World Bank LPI 2.0: https://lpi.worldbank.org/en/home
 - pandas: https://pandas.pydata.org/docs/
