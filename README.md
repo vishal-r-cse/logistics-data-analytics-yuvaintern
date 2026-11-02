@@ -5,7 +5,6 @@ A beginner Python demonstration for a hypothetical logistics provider. All sampl
 
 ## Files
 - `last_mile_delivery_optimization_week1.py`: runnable demonstration script.
-- `YuvaIntern_Week1_Last_Mile_Delivery_Optimization_Report_Vishal_R.docx`: strategic planning report.
 
 ## Demonstrations
 - Data-quality check using pandas
@@ -46,15 +45,22 @@ A public research dataset, LaDe, is included as a reference for real-world last-
 - Applied Min-Max normalization and Z-score standardization.
 - Exported cleaned data and execution summaries.
 
-### Week 2 Files
-
+## Week 2 Files
 - `week2_logistics_raw_dataset.csv` – Original synthetic dataset.
 - `week2_logistics_cleaned_dataset.csv` – Initial cleaned dataset.
+- `week2_logistics_cleaned_dataset_verified.csv` – Verified processed dataset.
 - `week2_preprocessing.py` – Initial preprocessing script.
 - `week2_preprocessing_detailed.py` – Detailed preprocessing implementation.
-- `week2_logistics_cleaned_dataset_verified.csv` – Verified processed dataset.
+- `week2_preprocessing_summary.txt` – Preprocessing summary.
+- `week2_preprocessing_summary_readable.txt` – Readable preprocessing summary.
 - `week2_detailed_execution_summary.txt` – Detailed execution results.
 - `YuvaIntern_Week2_Complete_Enhanced_Report.docx` – Enhanced Week 2 report.
+
+### Limitations
+- The dataset is synthetic and intended for educational demonstration.
+- IQR identifies potential outliers; these records are not automatically removed.
+- Results from simulated data should not be treated as real-world delivery performance.
+- Further validation using a larger real-world dataset is required before operational use.
 
 ### Public Reference
 
