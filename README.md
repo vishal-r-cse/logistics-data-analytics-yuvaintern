@@ -1,14 +1,21 @@
-# E-Commerce Last-Mile Delivery Optimization — YuvaIntern Internship Project
+# E-Commerce Last-Mile Delivery Optimization
+
+**YuvaIntern – Logistics Data Analyst Internship Project**
 
 ## Project Overview
 
 This project focuses on analyzing and improving the efficiency of e-commerce last-mile delivery operations using Python and data analytics.
 
-The project is developed as part of the **YuvaIntern Logistics Data Analyst Internship**. It demonstrates data analysis techniques, data cleaning, preprocessing, exploratory data analysis (EDA), statistical analysis and visualization.
+Developed as part of the **YuvaIntern Logistics Data Analyst Internship**, the project demonstrates a complete learning workflow across four weekly activities:
 
-The project is organized into weekly activities, progressing from basic Python demonstrations to advanced logistics data analysis.
+1. Introduction to logistics data analysis.
+2. Data collection, cleaning and preprocessing.
+3. Exploratory Data Analysis (EDA) and visualization.
+4. Predictive modeling and logistics optimization recommendations.
 
-**Important:** All processed logistics records used in Weeks 2 and 3 are synthetic educational data. They do not represent actual company, customer or delivery records.
+The project progresses from basic Python demonstrations to data preprocessing, statistical analysis, visualization and machine learning.
+
+**Dataset disclaimer:** The logistics records used in this project are synthetic educational data. They do not represent actual company, customer or delivery records. The results are intended for learning and demonstration, not as evidence of real-world operational performance.
 
 ---
 
@@ -19,8 +26,8 @@ The project is organized into weekly activities, progressing from basic Python d
 - NumPy
 - Matplotlib
 - Scikit-learn
-- Jupyter Notebook / Python environment
 - Git and GitHub
+- Jupyter Notebook / Python environment
 
 ---
 
@@ -37,23 +44,11 @@ Week 1 introduces basic Python programming and data analysis concepts through a 
 - Demonstrated geographic K-Means clustering.
 - Implemented baseline linear regression using delivery distance.
 
-## Week 1 Files
+## Week 1 File
 
-- `last_mile_delivery_optimization_week1.py` – Python demonstration script.
-
-## Execution
-
-Install the required dependencies:
-
-```bash
-python -m pip install pandas scikit-learn
-```
-
-Run the Python script:
-
-```bash
-python last_mile_delivery_optimization_week1.py
-```
+| File | Description |
+|---|---|
+| `last_mile_delivery_optimization_week1.py` | Python demonstration script |
 
 ## Limitations
 
@@ -75,7 +70,7 @@ The project uses a synthetic educational dataset containing 300 unique simulated
 
 The raw dataset includes missing values and duplicate records to demonstrate data-cleaning and preprocessing techniques.
 
-A public research dataset, LaDe, is included as a reference for real-world last-mile delivery data. It was not used as the dataset processed in this project.
+The public research dataset **LaDe – Last-mile Delivery Dataset** is included as a reference for real-world last-mile delivery research. It was not used as the dataset processed in this project.
 
 ## Activities
 
@@ -175,7 +170,7 @@ These observations are descriptive findings from synthetic data. They do not est
 
 ## Visualizations
 
-The Week 3 analysis includes the following visualizations:
+The Week 3 analysis includes:
 
 1. Delivery-time distribution.
 2. Average delivery time by delivery zone.
@@ -185,7 +180,7 @@ The Week 3 analysis includes the following visualizations:
 6. Delivery-status count chart.
 7. Average shipping cost by vehicle type.
 
-Each visualization is used to examine a specific aspect of logistics operations and support the interpretation of the dataset.
+Each visualization examines a specific aspect of logistics operations and supports the interpretation of the dataset.
 
 ## Limitations
 
@@ -194,6 +189,100 @@ Each visualization is used to examine a specific aspect of logistics operations 
 - Group averages may be influenced by distance, zone, vehicle type and sample size.
 - No actual company service-level agreement (SLA) threshold or lateness duration is available.
 - Real operational decisions require validation with representative delivery records.
+
+---
+
+# Week 4 – Predictive Modeling and Optimization in Logistics Systems
+
+## Overview
+
+Week 4 focuses on developing predictive models to estimate delivery times and proposing optimization strategies for e-commerce last-mile delivery operations.
+
+The analysis uses the verified synthetic logistics dataset prepared during Week 2. Python and Scikit-learn are used for data preprocessing, model training, validation and performance evaluation.
+
+## Prediction Problem
+
+The objective is to predict delivery time in minutes based on the following input features:
+
+- `Distance_KM`
+- `Delivery_Zone`
+- `Traffic_Level`
+- `Vehicle_Type`
+- `Weather`
+
+**Target variable:** `Delivery_Time_Min`
+
+## Models Implemented
+
+Three regression models were developed and evaluated:
+
+- **Linear Regression:** Used as a baseline predictive model.
+- **Decision Tree Regressor:** Used to capture nonlinear patterns.
+- **Random Forest Regressor:** Combines multiple decision trees to generate predictions.
+
+## Model Training and Evaluation
+
+The modeling workflow includes:
+
+- 80:20 training and testing split.
+- Five-fold cross-validation on the training data.
+- Model comparison using Mean Absolute Error (MAE).
+- Final test-set evaluation using MAE, RMSE and R².
+- Comparison of actual and predicted delivery times.
+- Analysis of prediction errors.
+
+The model-selection process uses training-only cross-validation MAE rather than selecting a model based on test-set results. The test set is retained for final evaluation.
+
+## Week 4 Files
+
+| File | Description |
+|---|---|
+| `YuvaIntern_Week4_Predictive_Modeling_Optimization_Report.docx` | Detailed predictive modeling and optimization report |
+| `week4_predictive_modeling.py` | Python model training and evaluation script |
+| `week4_test_predictions.csv` | Actual and predicted test-set results |
+| `week4_actual_vs_predicted.png` | Actual versus predicted visualization |
+| `week4_prediction_error_distribution.png` | Prediction error distribution visualization |
+
+## Model Evaluation Results
+
+The following results were obtained during the evaluation run:
+
+| Model | Test MAE | Test RMSE | R² |
+|---|---:|---:|---:|
+| Linear Regression | 10.97 | 48.46 | 0.105 |
+| Decision Tree Regressor | 12.88 | 49.23 | 0.077 |
+| Random Forest Regressor | 11.46 | 48.11 | 0.118 |
+
+### Interpretation
+
+- Linear Regression achieved the lowest test MAE in this evaluation run.
+- Random Forest achieved the lowest test RMSE and the highest R².
+- The model-selection process uses five-fold cross-validation MAE on training data.
+- The relatively low R² values indicate that the models explain only a limited proportion of the variation in delivery time.
+- The comparatively high RMSE indicates that some prediction errors are substantially larger than the typical absolute error.
+
+The results show that model performance depends on the evaluation metric. These models should not be considered production-ready.
+
+## Optimization Recommendations
+
+Based on the modeling workflow and EDA findings, the following strategies are proposed:
+
+1. **Delay-risk identification:** Use predicted delivery times to identify orders that may require attention.
+2. **Route planning:** Consider delivery distance and traffic conditions when planning routes.
+3. **Delivery-zone grouping:** Explore grouping deliveries by geographical zones, particularly for rural and long-distance routes.
+4. **Vehicle allocation:** Consider route requirements and operating costs when assigning vehicles.
+5. **Performance monitoring:** Compare actual and predicted delivery times to identify prediction errors and monitor model performance.
+
+These recommendations are proposals for further investigation. They have not been validated through a real-world logistics deployment.
+
+## Limitations
+
+- The dataset contains only 300 synthetic educational records.
+- An extreme delivery-time value affects RMSE.
+- The model does not use live traffic, GPS or road-network information.
+- The model's performance is limited and requires further improvement.
+- Larger real-world datasets and additional validation are required before operational use.
+- Predictions do not guarantee actual delivery times.
 
 ---
 
@@ -219,7 +308,13 @@ logistics-data-analytics-yuvaintern/
 │
 ├── YuvaIntern_Week3_Advanced_Logistics_Data_Analysis_Report.docx
 ├── week3_logistics_eda_visualization.py
-└── week3_eda_summary.txt
+├── week3_eda_summary.txt
+│
+├── YuvaIntern_Week4_Predictive_Modeling_Optimization_Report.docx
+├── week4_predictive_modeling.py
+├── week4_test_predictions.csv
+├── week4_actual_vs_predicted.png
+└── week4_prediction_error_distribution.png
 ```
 
 ---
@@ -246,25 +341,37 @@ python -m pip install pandas numpy matplotlib scikit-learn
 
 ## Step 4 – Run the Python Scripts
 
-Week 1:
+**Week 1**
 
 ```bash
 python last_mile_delivery_optimization_week1.py
 ```
 
-Week 2:
+**Week 2**
 
 ```bash
 python week2_preprocessing.py
 ```
 
-Week 3:
+**Week 3**
 
 ```bash
 python week3_logistics_eda_visualization.py
 ```
 
-**Note:** Run the Week 2 preprocessing workflow before Week 3 if you need to regenerate the processed dataset. Check the script's input and output paths before running it.
+**Week 4**
+
+```bash
+python week4_predictive_modeling.py
+```
+
+### Execution Notes
+
+- Run the scripts from the repository's root folder.
+- Run the Week 2 preprocessing workflow before Week 3 if you need to regenerate the processed dataset.
+- Week 4 uses the verified Week 2 dataset. Ensure that `week2_logistics_cleaned_dataset_verified.csv` is available in the expected location.
+- Check the input and output paths inside each script before execution.
+- The Python scripts may generate or overwrite output files depending on their implementation.
 
 ---
 
@@ -282,7 +389,11 @@ Through this project, the following skills and concepts are demonstrated:
 - Exploratory Data Analysis (EDA).
 - Data visualization using Matplotlib.
 - Correlation analysis.
+- Regression modeling.
+- Model training and validation.
+- Model evaluation using MAE, RMSE and R².
 - Interpretation of logistics performance indicators.
+- Development of data-based optimization recommendations.
 - Documentation and version control using GitHub.
 
 ---
@@ -301,25 +412,29 @@ LaDe is included as a public research reference. It was not used as the processe
 
 - World Bank Logistics Performance Index (LPI): https://lpi.worldbank.org/en/home
 - Pandas Documentation: https://pandas.pydata.org/docs/
-- Scikit-learn Clustering: https://scikit-learn.org/stable/modules/clustering.html
-- Scikit-learn Linear Regression: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html
 - NumPy Documentation: https://numpy.org/doc/
 - Matplotlib Documentation: https://matplotlib.org/stable/
+- Scikit-learn Clustering: https://scikit-learn.org/stable/modules/clustering.html
+- Scikit-learn Linear Regression: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html
+- Scikit-learn Model Evaluation: https://scikit-learn.org/stable/modules/model_evaluation.html
+- Scikit-learn Cross-Validation: https://scikit-learn.org/stable/modules/cross_validation.html
 
 ---
 
 # Project Disclaimer
 
-This repository is an educational project developed as part of the YuvaIntern Logistics Data Analyst Internship.
+This repository is an educational project developed as part of the **YuvaIntern Logistics Data Analyst Internship**.
 
-All processed logistics records and numerical findings in Weeks 2 and 3 are based on synthetic data created for learning and demonstration purposes. They are not actual company, customer or delivery records.
+All logistics records and numerical findings used in this project are based on synthetic data created for learning and demonstration purposes. They are not actual company, customer or delivery records.
 
-The analysis demonstrates data analytics workflows and should not be interpreted as a validated production logistics optimization system.
+The project demonstrates data analytics, preprocessing, exploratory analysis, visualization, predictive modeling and optimization recommendations. The results should not be interpreted as validated real-world logistics performance or as a production-ready optimization system.
 
 ---
 
-**Repository:** https://github.com/vishal-r-cse/logistics-data-analytics-yuvaintern
+## Project Information
 
-**Project:** E-Commerce Last-Mile Delivery Optimization
+**Project:** E-Commerce Last-Mile Delivery Optimization  
+**Internship:** YuvaIntern – Logistics Data Analyst  
+**Repository:** https://github.com/vishal-r-cse/logistics-data-analytics-yuvaintern  
+**Tools:** Python, Pandas, NumPy, Matplotlib and Scikit-learn
 
-**Internship:** YuvaIntern – Logistics Data Analyst
